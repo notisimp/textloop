@@ -129,8 +129,6 @@ header {
   height: 200px;
   width: 100%;
   overflow-x: hidden;
-  transition: 1s ease;
-  animation: demo ease-in-out 1s;
 }
 
 #demo::-webkit-scrollbar {
