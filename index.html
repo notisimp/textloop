@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="/index.js"></script>
+        <link rel="stylesheet" href="style.css">    
+        
+    <title>Javascript Basic</title>
+</head>
+<body>
+        <!-- <header><h1>Javascript basic</h1></header> -->
+        <div class="card">
+            <div class="card-container">
+                <div class="card-container_group">
+                    <span class="card-container_name">
+                    time text: 
+                </span>
+                    <input class="card-container_input" type="number" name="timeText" id="timeText" placeholder="1s = 1000" step="100">
+                </div>
+                <div class="card-container_group">
+                    <span class="card-container_name">
+                    times: 
+                </span>
+                    <input class="card-container_input" type="number" name="time" id="time" placeholder="Loop 0 - times">
+                </div>
+                <div class="card-container_group">
+                <span class="card-container_name">
+                    content:
+                </span>
+                    <input class="card-container_input" type="text" name="content" id="content" placeholder="Anh Xin Loi">
+                </div>
+                <div class="card-container_group_radio">
+                <input type="radio" value="ttc" name="Chossen"/>Time -> Content
+                <input type="radio" value="ht" name="Chossen"/>Hide Time
+                <input type="radio" value="ctt" name="Chossen"/>Content - Times
+                <input type="radio" value="tstc" name="Chossen"/>Times - Content
+</div>
+                <button class="btn" onclick="demCuu()">Submit</button>
+                <button class="btn" onclick="clearBox()">Clear</button>
+            </div>
+            <p id="demo"></p>
+        </div>
+        
+</body>
+</html>
